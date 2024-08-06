@@ -22,6 +22,7 @@ async function main() {
   console.log("Decoded response:", contract.interface.decodeFunctionResult(functionName, responseMessage)[0]);
 }
 
+
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
